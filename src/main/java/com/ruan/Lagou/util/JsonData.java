@@ -1,5 +1,6 @@
 package com.ruan.Lagou.util;
 
+import com.ruan.Lagou.enums.BizCodeEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
