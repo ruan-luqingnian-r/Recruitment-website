@@ -1,0 +1,21 @@
+spring:
+  #数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lagou?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  #redis缓存配置
+  redis:
+    host: 192.168.15.131
+    port: 6379
+    password: 123456
+  #邮箱配置
+  mail:
+    host: smtp.163.com
+    username: 15991875018@163.com
+    password: JPKBZLMADNSXYZID
+    default-encoding: UTF-8
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
