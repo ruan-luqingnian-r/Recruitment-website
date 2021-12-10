@@ -19,10 +19,7 @@ public class AdminVo extends BaseEntityVo {
      */
     private static final int USER_SEX_UNKONW = 0;
 
-    /**
-     * 默认用户头像
-     */
-    private static final String DEFAULT_HEAD_IMAGE = "common/default_img.jpg";
+
 
     /**
      * 用户名
@@ -34,7 +31,7 @@ public class AdminVo extends BaseEntityVo {
      * 用户头像
      */
     @JsonProperty("head_pic")
-    private String headPic = DEFAULT_HEAD_IMAGE;
+    private String headPic;
 
     /**
      * 用户性别
