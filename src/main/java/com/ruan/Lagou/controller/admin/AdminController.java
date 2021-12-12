@@ -1,7 +1,7 @@
 package com.ruan.Lagou.controller.admin;
 
 import com.ruan.Lagou.request.AdminAdd;
-import com.ruan.Lagou.service.AdminService;
+import com.ruan.Lagou.service.admin.AdminService;
 import com.ruan.Lagou.util.JsonData;
 import com.ruan.Lagou.vo.admin.AdminVo;
 import io.swagger.annotations.Api;

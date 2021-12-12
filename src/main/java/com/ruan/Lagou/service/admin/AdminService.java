@@ -1,4 +1,4 @@
-package com.ruan.Lagou.service;
+package com.ruan.Lagou.service.admin;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.ruan.Lagou.model.admin.AdminDo;

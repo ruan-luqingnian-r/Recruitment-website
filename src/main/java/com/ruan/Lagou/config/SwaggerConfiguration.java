@@ -40,7 +40,7 @@ public class SwaggerConfiguration {
                 .apiInfo(apiInfo())
                 // 选择哪些接口作为swagger的doc发布
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("net.xdclass"))
+                .apis(RequestHandlerSelectors.basePackage("com.ruan.Lagou"))
                 //正则匹配请求路径，并分配至当前分组
                 .paths(PathSelectors.ant("/api/**"))
                 .build()

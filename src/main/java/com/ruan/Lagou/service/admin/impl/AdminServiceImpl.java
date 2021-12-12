@@ -1,12 +1,11 @@
-package com.ruan.Lagou.service.impl;
+package com.ruan.Lagou.service.admin.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ruan.Lagou.mapper.AdminMapper;
 import com.ruan.Lagou.model.admin.AdminDo;
 import com.ruan.Lagou.request.AdminAdd;
-import com.ruan.Lagou.service.AdminService;
-import com.ruan.Lagou.util.JsonData;
+import com.ruan.Lagou.service.admin.AdminService;
 import com.ruan.Lagou.vo.admin.AdminVo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
